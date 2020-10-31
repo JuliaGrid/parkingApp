@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+#root,
+html,
+body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  height: 100%;
+}
+
+.main__wrapper {
+  width: 80%;
+  position: relative;
+  padding-bottom: 20px;
+  margin-left: auto;
+  background-color: #fafafa;
+  box-sizing: border-box;
+  min-height: 100%;
+}
+
+.main__wrapper::before {
+  content: "";
+  position: absolute;
+  background-color: #e6e9f1;
+  width: 18px;
+  margin-left: -18px;
+  margin-top: 195px;
+  box-sizing: border-box;
+  min-height: calc(100% - 195px);
+}
+
+.makeStyles-main__addWrapper-9
+  + .Logo-main__logoWrapper-17
+  + .main__wrapper.main__wrapper:before {
+  margin-top: 345px;
+  min-height: calc(100% - 345px);
+}
+
+.makeStyles-main__addWrapper-9 + .Logo-main__logoWrapper-17 {
+  margin-top: 150px !important;
+}
+
+.displayNone {
+  display: none;
+}
+
+.places__setting-clear + .places__setting-create {
+  margin-top: 6px !important;
+}
+
+.MuiOutlinedInput-input {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
+.wrong {
+  border: 1px solid #ad7777 !important;
+}
